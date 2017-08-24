@@ -1,3 +1,5 @@
+@import "~common/scss/settings";
+
 .it-works {
-  color: red;
+  color: $color-success;
 }

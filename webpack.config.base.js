@@ -65,9 +65,7 @@ const config = {
   resolve: {
     extensions: ['.webpack-loader.js', '.web-loader.js', '.loader.js', '.js', '.scss'],
     modules: [
-      path.resolve(__dirname, 'patched_node_modules'),
       path.resolve(__dirname, 'node_modules'),
-      path.resolve(__dirname, 'modules'),
       sourcePath,
     ],
   },
